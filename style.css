@@ -9,3 +9,41 @@
     height: 100px;
     flex: 1; 
   }
+
+  #flex-text {
+    display: flex;
+  }
+
+  #flex-text div {
+    background: white;
+    height: 100px;
+    flex: 1;
+    text-align: center;
+  }
+
+#hero-part {
+  background-color: #1f2937;
+  margin: 40px;
+  
+}
+
+#info-part h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#quote-part {
+  background: #E5E7EB;
+  font-size: 36px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+
+#call-us {
+  background-color: #3882F6;
+}
+
+#footer {
+  background-color: #1F2937;
+}
