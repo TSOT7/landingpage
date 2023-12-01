@@ -14,10 +14,11 @@
   .flex-container div {
     background: rgb(255, 255, 255);
     border: 4px solid #3882F6;
-    height: 100px;
+    height: auto;
     flex: 1; 
-    border-radius: 10px;;
-
+    border-radius: 10px;
+    padding: 100px;
+    justify-content: space-around;
   }
 
   #flex-text {
@@ -52,9 +53,41 @@
 }
 
 #call-us {
+  display: flex;
+  justify-content: space-between;
   background-color: #3882F6;
+  padding: 30px;
+  margin: 100px;
+  border-radius: 7px;
+  color: #E5E7EB;
+ 
 }
+
+#call-us-sign-up-button {
+  flex: 1;
+  align-self: center;
+}
+
+
 
 #footer {
   background-color: #1F2937;
 }
+
+#quote-part {
+  padding: 150px;
+}
+
+#thor {
+  font-size: 25px;
+  text-align: end;
+  font-weight: bold;
+}
+
+#footer {
+  padding: 20px;
+  margin: 0;
+  color: #E5E7EB;
+  text-align: center;
+}
+
