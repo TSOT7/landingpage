@@ -1,19 +1,21 @@
+/* Global Attributes */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
+/* Header Attributes */
 .header-container {
+    padding: 10px;
     background-color: #1F2937;
-    border: 1px solid #000;
     display: flex; 
     justify-content: space-around;
 }
   
-
 .header-links {
-  border: 1px solid #000; 
+
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -31,7 +33,12 @@
   color: #e5e7eb; text-decoration: none;
 }
 
-
-
+/* Hero Attributes */
+.hero-container {
+  padding: 100px;
+  background-color: #1F2937;
+  border: solid #FFF;
+  display: flex;
+}
 
  
