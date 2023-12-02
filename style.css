@@ -1,93 +1,25 @@
-#tab {
-  display: flex;
-}
-
-#tab div{
-  flex: 1;
-}
-
-.flex-container {
-     display: flex; 
-  }
-  
-  /* this selector selects all divs inside of .flex-container */
-  .flex-container div {
-    background: rgb(255, 255, 255);
-    border: 4px solid #3882F6;
-    height: auto;
-    flex: 1; 
-    border-radius: 10px;
-    padding: 100px;
-    justify-content: space-around;
-  }
-
-  #flex-text {
-    display: flex;
-  }
-
-  #flex-text div {
-    background: white;
-    height: 100px;
-    flex: 1;
-    text-align: center;
-  }
-
-#hero-part {
-  background-color: #1f2937;
-  margin: 40px;
-  
-}
-
-#info-part h2 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 36px;
-  font-weight: bold;
-  text-align: center;
-}
-
-#quote-part {
-  background: #E5E7EB;
-  font-size: 36px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-style: italic;
-}
-
-#call-us {
-  display: flex;
-  justify-content: space-between;
-  background-color: #3882F6;
-  padding: 30px;
-  margin: 100px;
-  border-radius: 7px;
-  color: #E5E7EB;
- 
-}
-
-#call-us-sign-up-button {
-  flex: 1;
-  align-self: center;
-}
-
-
-
-#footer {
-  background-color: #1F2937;
-}
-
-#quote-part {
-  padding: 150px;
-}
-
-#thor {
-  font-size: 25px;
-  text-align: end;
-  font-weight: bold;
-}
-
-#footer {
-  padding: 20px;
+* {
   margin: 0;
-  color: #E5E7EB;
-  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.header-container {
+    border: 1px solid #000;
+    display: flex; 
+    justify-content: space-around;
+}
+  
+
+.header-links {
+  border: 1px solid #000; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+}
+
+
+
+
+ 
