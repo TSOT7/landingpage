@@ -35,10 +35,33 @@
 
 /* Hero Attributes */
 .hero-container {
-  padding: 100px;
+  padding: 115px;
   background-color: #1F2937;
   border: solid #FFF;
   display: flex;
+  justify-content: center;
 }
 
+.hero-content  {
+  display: flex;
+  justify-content: space-between;
+  border: solid #FFF;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-button {
+  padding: 6px 20px;
+  border-radius: 10px;
+  background-color: #3882F6;
+  color: #e5e7eb;
+}
  
