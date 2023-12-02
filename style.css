@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -37,7 +38,6 @@
 .hero-container {
   padding: 115px;
   background-color: #1F2937;
-  border: solid #FFF;
   display: flex;
   justify-content: center;
 }
@@ -45,7 +45,14 @@
 .hero-content  {
   display: flex;
   justify-content: space-between;
-  border: solid #FFF;
+  display: flex;
+  padding: 50px;
+  width: 1000px;
+}
+
+.hero-text {
+  flex-direction: column;
+  width: 350px;
 }
 
 .hero-content h1 {
