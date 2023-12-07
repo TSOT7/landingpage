@@ -72,12 +72,15 @@
   color: #e5e7eb;
 }
 
+.info-part {
+  padding: 50px;
+}
 
 .information-header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 10px 40px 30px 40px;
 }
 
 /* allows us to flex the two divs that hold the content  */
@@ -85,22 +88,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   width: 100%;
-  border: 5px solid yellow;
 }
 
 .flex-container {
   display: flex;
   justify-content: space-between;
   width: 70%;
-  border: 3px solid #3882F6;
 }
 
 .square {
   width: 200px;
   height: 200px;
-  border: solid #3882F6;
+  border: 4px solid #3882F6;
   border-radius: 10px;
 }
 
@@ -108,4 +108,28 @@
   width: 200px;
   text-align: center;
 }
+
+/* quote part */
+.quote-part {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+#full-text {
+  width: 50%;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+#thor {
+  text-align: end;
+}
+
+/* Call us part */
+
 
