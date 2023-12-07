@@ -71,4 +71,41 @@
   background-color: #3882F6;
   color: #e5e7eb;
 }
- 
+
+
+.information-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+/* allows us to flex the two divs that hold the content  */
+.square-container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  border: 5px solid yellow;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  border: 3px solid #3882F6;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: solid #3882F6;
+  border-radius: 10px;
+}
+
+.text {
+  width: 200px;
+  text-align: center;
+}
+
