@@ -53,6 +53,7 @@
 .hero-text {
   flex-direction: column;
   width: 350px;
+  padding: 10px;
 }
 
 .hero-content h1 {
